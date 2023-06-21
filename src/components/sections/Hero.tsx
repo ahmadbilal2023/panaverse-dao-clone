@@ -22,11 +22,11 @@ const Hero = () => {
             <h1 className=" text-2xl leading-7 md:text-5xl font-mono font-bold md:leading-[60px]">
               Certified Web 3.0 and Metaverse Developer
             </h1>
-            <p className="text-sm md:text-base">
+            <p className="text-sm text-slate-600 md:text-xl">
               A One and Quarter Years Panaverse DAO Earn as you Learn Program
               Getting Ready for the Next Generation of the Internet
             </p>
-            <p className="text-sm md:text-base">
+            <p className="text-sm text-slate-600 md:text-xl">
               Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
               Cloud, Edge, Ambient Computing/IoT, Network Automation, and
               Bioinformatics Technologies
@@ -38,7 +38,7 @@ const Hero = () => {
             <Image
               src={web3}
               alt="hero"
-              className="rounded-lg h-72 w-72 md:h-[400px] md:w-[480px] ml-auto mt-24 md:mt-0 object-contain"
+              className="rounded-lg h-72 w-72 md:h-[400px] md:w-[480px] ml-auto mt-16 md:mt-0 object-contain"
             />
           </div>
         </div>
