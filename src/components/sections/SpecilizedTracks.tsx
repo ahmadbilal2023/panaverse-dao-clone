@@ -1,5 +1,6 @@
 import React from "react";
 import Wrapper from "../shared/Wrapper";
+import QuarterBox from "../shared/QuarterBox";
 
 const SpecilizedTracks = () => {
   return (
@@ -15,9 +16,9 @@ const SpecilizedTracks = () => {
             select one or more specializations consisting of two courses each:
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 flex gap-x-6 gap-y-8">
           {/* Content Left */}
-          <div className="shadow-xl rounded-xl border-slate-200 border py-8 px-8">
+          <div className="shadow-xl basis-7/12 rounded-xl border-slate-200 border py-8 px-8">
             <h4 className="text-teal-700 text-lg">Specialized Program</h4>
             <h3 className="text-2xl font-bold">
               Web 3.0 (Blockchain) and Metaverse Specialization
@@ -32,7 +33,7 @@ const SpecilizedTracks = () => {
             <button className="text-teal-700 text-xl mt-4 flex gap-x-2 underline underline-offset-2">
               Learn more
               <svg
-              className="mt-2.5"
+                className="mt-2.5"
                 width="10"
                 height="13"
                 viewBox="0 0 8 11"
@@ -46,8 +47,23 @@ const SpecilizedTracks = () => {
                 />
               </svg>
             </button>
+            <div className="flex gap-4 mt-10">
+              <QuarterBox
+                header="Quarter IV"
+                description="W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform"
+                number={4}
+                haveBorder={false}
+              />
+              <QuarterBox
+                header="Quarter V"
+                description="W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform"
+                number={5}
+                haveBorder={false}
+              />
+            </div>
           </div>
           {/* Content Right */}
+          <div className="px-8 py-8 bg-gray-700 basis-5/12"></div>
         </div>
       </Wrapper>
     </section>
