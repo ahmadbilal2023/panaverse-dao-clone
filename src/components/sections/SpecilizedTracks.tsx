@@ -18,7 +18,7 @@ const SpecilizedTracks = () => {
         </div>
         <div className="mt-10 flex gap-x-6 gap-y-8">
           {/* Content Left */}
-          <div className="shadow-xl basis-7/12 rounded-xl border-slate-200 border py-8 px-8">
+          <div className="shadow-xl basis-8/12 rounded-xl border-slate-200 border py-8 px-8">
             <h4 className="text-teal-700 text-lg">Specialized Program</h4>
             <h3 className="text-2xl font-bold">
               Web 3.0 (Blockchain) and Metaverse Specialization
@@ -63,7 +63,20 @@ const SpecilizedTracks = () => {
             </div>
           </div>
           {/* Content Right */}
-          <div className="px-8 py-8 bg-gray-700 basis-5/12"></div>
+          <div className="px-4 py-6 bg-gray-200 basis-4/12">
+            <div className="flex gap-x-4 items-center">
+              <div className="px-8 py-8 bg-green-400 w-24 h-20"></div>
+              <div>
+                <h4 className="text-[#00616C] font-medium ">
+                  Specialized Program
+                </h4>
+                <h3 className="text-xl font-semibold">
+                  Web 3.0 (Blockchain) and Metaverse Specialization
+                </h3>
+              </div>
+            </div>
+            <div className="h-1 w-96 mt-6 bg-black/10"></div>
+          </div>
         </div>
       </Wrapper>
     </section>
